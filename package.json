@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/strided-base",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Base strided.",
   "license": "Apache-2.0",
   "author": {
