@@ -54,6 +54,7 @@
     "@stdlib/strided-base-smap": "^0.0.x",
     "@stdlib/strided-base-smap2": "^0.0.x",
     "@stdlib/strided-base-smskmap": "^0.0.x",
+    "@stdlib/strided-base-smskmap2": "^0.0.x",
     "@stdlib/strided-base-ternary": "^0.0.x",
     "@stdlib/strided-base-unary": "^0.0.x",
     "@stdlib/strided-base-unary-addon-dispatch": "^0.0.x",
