@@ -41,6 +41,7 @@
     "@stdlib/strided-base-dmap": "^0.0.x",
     "@stdlib/strided-base-dmap2": "^0.0.x",
     "@stdlib/strided-base-dmskmap": "^0.0.x",
+    "@stdlib/strided-base-dmskmap2": "^0.0.x",
     "@stdlib/strided-base-dtype-enum2str": "^0.0.x",
     "@stdlib/strided-base-dtype-resolve-enum": "^0.0.x",
     "@stdlib/strided-base-dtype-str2enum": "^0.0.x",
