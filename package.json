@@ -137,6 +137,7 @@
     "@stdlib/random-base-randu": "^0.0.x",
     "@stdlib/random-base-uniform": "^0.0.x",
     "@stdlib/strided-dtypes": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/string-replace": "^0.0.x",
     "@stdlib/string-substring-after": "^0.0.x",
     "@stdlib/string-substring-before": "^0.0.x",
