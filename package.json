@@ -1,0 +1,33 @@
+{
+  "name": "@stdlib/strided-base",
+  "version": "0.0.0",
+  "description": "Base strided.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/strided-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "standard",
+    "library",
+    "std",
+    "lib",
+    "base",
+    "vector",
+    "array",
+    "strided",
+    "ndarray",
+    "element-wise",
+    "elementwise"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
