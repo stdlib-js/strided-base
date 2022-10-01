@@ -142,6 +142,7 @@
     "@stdlib/string-substring-after": "^0.0.x",
     "@stdlib/string-substring-before": "^0.0.x",
     "@stdlib/string-uppercase": "^0.0.x",
+    "@stdlib/time-current-year": "^0.0.x",
     "@stdlib/utils-constant-function": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
