@@ -56,6 +56,7 @@
     "@stdlib/strided-base-min-view-buffer-index": "^0.0.x",
     "@stdlib/strided-base-mskunary": "^0.0.x",
     "@stdlib/strided-base-nullary": "^0.0.x",
+    "@stdlib/strided-base-nullary-addon-dispatch": "^0.0.x",
     "@stdlib/strided-base-offset-view": "^0.0.x",
     "@stdlib/strided-base-quaternary": "^0.0.x",
     "@stdlib/strided-base-quinary": "^0.0.x",
