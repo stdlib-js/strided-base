@@ -69,6 +69,8 @@
     "@stdlib/strided-base-ternary": "^0.0.x",
     "@stdlib/strided-base-unary": "^0.0.x",
     "@stdlib/strided-base-unary-addon-dispatch": "^0.0.x",
+    "@stdlib/strided-base-unary-dtype-signatures": "^0.0.x",
+    "@stdlib/strided-base-unary-signature-callbacks": "^0.0.x",
     "@stdlib/strided-base-zmap": "^0.0.x",
     "@stdlib/utils-define-read-only-property": "^0.0.x"
   },
