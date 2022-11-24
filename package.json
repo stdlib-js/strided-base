@@ -72,6 +72,7 @@
     "@stdlib/strided-base-ternary": "^0.0.x",
     "@stdlib/strided-base-unary": "^0.0.x",
     "@stdlib/strided-base-unary-addon-dispatch": "^0.0.x",
+    "@stdlib/strided-base-unary-by": "^0.0.x",
     "@stdlib/strided-base-unary-dtype-signatures": "^0.0.x",
     "@stdlib/strided-base-unary-signature-callbacks": "^0.0.x",
     "@stdlib/strided-base-zmap": "^0.0.x",
@@ -163,7 +164,7 @@
     "@stdlib/utils-object-inverse": "^0.0.x",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
-    "tap-spec": "5.x.x"
+    "tap-min": "2.x.x"
   },
   "engines": {
     "node": ">=0.10.0",
