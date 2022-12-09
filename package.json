@@ -79,9 +79,15 @@
     "@stdlib/utils-define-read-only-property": "^0.0.x"
   },
   "devDependencies": {
+    "@stdlib/array-base-accessor-getter": "^0.0.x",
+    "@stdlib/array-base-accessor-setter": "^0.0.x",
+    "@stdlib/array-base-assert-is-accessor-array": "^0.0.x",
+    "@stdlib/array-base-getter": "^0.0.x",
+    "@stdlib/array-base-setter": "^0.0.x",
     "@stdlib/array-buffer": "^0.0.x",
     "@stdlib/array-complex128": "^0.0.x",
     "@stdlib/array-complex64": "^0.0.x",
+    "@stdlib/array-dtype": "^0.0.x",
     "@stdlib/array-filled": "^0.0.x",
     "@stdlib/array-filled-by": "^0.0.x",
     "@stdlib/array-float32": "^0.0.x",
