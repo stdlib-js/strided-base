@@ -156,7 +156,7 @@
     "@stdlib/random-base-randu": "^0.0.8",
     "@stdlib/random-base-uniform": "^0.0.6",
     "@stdlib/strided-dtypes": "^0.1.0",
-    "@stdlib/string-format": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.0",
     "@stdlib/string-replace": "^0.1.0",
     "@stdlib/string-substring-after": "^0.1.0",
     "@stdlib/string-substring-before": "^0.1.0",
