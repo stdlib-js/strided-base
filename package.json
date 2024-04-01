@@ -143,7 +143,7 @@
     "@stdlib/math-base-special-ceil": "^0.2.1",
     "@stdlib/math-base-special-cidentity": "^0.2.1",
     "@stdlib/math-base-special-cidentityf": "^0.2.1",
-    "@stdlib/math-base-special-floor": "^0.2.1",
+    "@stdlib/math-base-special-floor": "^0.2.2",
     "@stdlib/math-base-special-identity": "^0.2.1",
     "@stdlib/math-base-special-identityf": "^0.2.1",
     "@stdlib/math-base-special-pow": "^0.2.1",
