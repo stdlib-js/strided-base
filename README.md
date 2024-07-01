@@ -35,32 +35,20 @@ limitations under the License.
 
 > Base strided.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/strided-base
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ns = require( '@stdlib/strided-base' );
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { binary, binaryAddonDispatch, binaryDtypeSignatures, binarySignatureCallbacks, cmap, dmap, dmap2, dmskmap, dmskmap2, dtypeEnum2Str, dtypeResolveEnum, dtypeResolveStr, dtypeStr2Enum, mapBy, mapBy2, maxViewBufferIndex, metaDataProps, minViewBufferIndex, mskunary, mskunaryAddonDispatch, mskunaryDtypeSignatures, mskunarySignatureCallbacks, nullary, nullaryAddonDispatch, offsetView, quaternary, quinary, reinterpretBoolean, reinterpretComplex, reinterpretComplex128, reinterpretComplex64, smap, smap2, smskmap, smskmap2, stride2offset, ternary, unary, unaryAddonDispatch, unaryBy, unaryDtypeSignatures, unarySignatureCallbacks, zmap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@esm/index.mjs';
 ```
 
 #### ns
@@ -136,11 +124,20 @@ The following functions are currently exported:
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var ns = require( '@stdlib/strided-base' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -164,7 +161,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -229,87 +226,87 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/strided/base/binary-addon-dispatch]: https://github.com/stdlib-js/strided-base-binary-addon-dispatch
+[@stdlib/strided/base/binary-addon-dispatch]: https://github.com/stdlib-js/strided-base-binary-addon-dispatch/tree/esm
 
-[@stdlib/strided/base/binary-dtype-signatures]: https://github.com/stdlib-js/strided-base-binary-dtype-signatures
+[@stdlib/strided/base/binary-dtype-signatures]: https://github.com/stdlib-js/strided-base-binary-dtype-signatures/tree/esm
 
-[@stdlib/strided/base/binary-signature-callbacks]: https://github.com/stdlib-js/strided-base-binary-signature-callbacks
+[@stdlib/strided/base/binary-signature-callbacks]: https://github.com/stdlib-js/strided-base-binary-signature-callbacks/tree/esm
 
-[@stdlib/strided/base/binary]: https://github.com/stdlib-js/strided-base-binary
+[@stdlib/strided/base/binary]: https://github.com/stdlib-js/strided-base-binary/tree/esm
 
-[@stdlib/strided/base/cmap]: https://github.com/stdlib-js/strided-base-cmap
+[@stdlib/strided/base/cmap]: https://github.com/stdlib-js/strided-base-cmap/tree/esm
 
-[@stdlib/strided/base/dmap]: https://github.com/stdlib-js/strided-base-dmap
+[@stdlib/strided/base/dmap]: https://github.com/stdlib-js/strided-base-dmap/tree/esm
 
-[@stdlib/strided/base/dmap2]: https://github.com/stdlib-js/strided-base-dmap2
+[@stdlib/strided/base/dmap2]: https://github.com/stdlib-js/strided-base-dmap2/tree/esm
 
-[@stdlib/strided/base/dmskmap]: https://github.com/stdlib-js/strided-base-dmskmap
+[@stdlib/strided/base/dmskmap]: https://github.com/stdlib-js/strided-base-dmskmap/tree/esm
 
-[@stdlib/strided/base/dmskmap2]: https://github.com/stdlib-js/strided-base-dmskmap2
+[@stdlib/strided/base/dmskmap2]: https://github.com/stdlib-js/strided-base-dmskmap2/tree/esm
 
-[@stdlib/strided/base/dtype-enum2str]: https://github.com/stdlib-js/strided-base-dtype-enum2str
+[@stdlib/strided/base/dtype-enum2str]: https://github.com/stdlib-js/strided-base-dtype-enum2str/tree/esm
 
-[@stdlib/strided/base/dtype-resolve-enum]: https://github.com/stdlib-js/strided-base-dtype-resolve-enum
+[@stdlib/strided/base/dtype-resolve-enum]: https://github.com/stdlib-js/strided-base-dtype-resolve-enum/tree/esm
 
-[@stdlib/strided/base/dtype-resolve-str]: https://github.com/stdlib-js/strided-base-dtype-resolve-str
+[@stdlib/strided/base/dtype-resolve-str]: https://github.com/stdlib-js/strided-base-dtype-resolve-str/tree/esm
 
-[@stdlib/strided/base/dtype-str2enum]: https://github.com/stdlib-js/strided-base-dtype-str2enum
+[@stdlib/strided/base/dtype-str2enum]: https://github.com/stdlib-js/strided-base-dtype-str2enum/tree/esm
 
-[@stdlib/strided/base/map-by]: https://github.com/stdlib-js/strided-base-map-by
+[@stdlib/strided/base/map-by]: https://github.com/stdlib-js/strided-base-map-by/tree/esm
 
-[@stdlib/strided/base/map-by2]: https://github.com/stdlib-js/strided-base-map-by2
+[@stdlib/strided/base/map-by2]: https://github.com/stdlib-js/strided-base-map-by2/tree/esm
 
-[@stdlib/strided/base/max-view-buffer-index]: https://github.com/stdlib-js/strided-base-max-view-buffer-index
+[@stdlib/strided/base/max-view-buffer-index]: https://github.com/stdlib-js/strided-base-max-view-buffer-index/tree/esm
 
-[@stdlib/strided/base/meta-data-props]: https://github.com/stdlib-js/strided-base-meta-data-props
+[@stdlib/strided/base/meta-data-props]: https://github.com/stdlib-js/strided-base-meta-data-props/tree/esm
 
-[@stdlib/strided/base/min-view-buffer-index]: https://github.com/stdlib-js/strided-base-min-view-buffer-index
+[@stdlib/strided/base/min-view-buffer-index]: https://github.com/stdlib-js/strided-base-min-view-buffer-index/tree/esm
 
-[@stdlib/strided/base/mskunary-addon-dispatch]: https://github.com/stdlib-js/strided-base-mskunary-addon-dispatch
+[@stdlib/strided/base/mskunary-addon-dispatch]: https://github.com/stdlib-js/strided-base-mskunary-addon-dispatch/tree/esm
 
-[@stdlib/strided/base/mskunary-dtype-signatures]: https://github.com/stdlib-js/strided-base-mskunary-dtype-signatures
+[@stdlib/strided/base/mskunary-dtype-signatures]: https://github.com/stdlib-js/strided-base-mskunary-dtype-signatures/tree/esm
 
-[@stdlib/strided/base/mskunary-signature-callbacks]: https://github.com/stdlib-js/strided-base-mskunary-signature-callbacks
+[@stdlib/strided/base/mskunary-signature-callbacks]: https://github.com/stdlib-js/strided-base-mskunary-signature-callbacks/tree/esm
 
-[@stdlib/strided/base/mskunary]: https://github.com/stdlib-js/strided-base-mskunary
+[@stdlib/strided/base/mskunary]: https://github.com/stdlib-js/strided-base-mskunary/tree/esm
 
-[@stdlib/strided/base/nullary-addon-dispatch]: https://github.com/stdlib-js/strided-base-nullary-addon-dispatch
+[@stdlib/strided/base/nullary-addon-dispatch]: https://github.com/stdlib-js/strided-base-nullary-addon-dispatch/tree/esm
 
-[@stdlib/strided/base/nullary]: https://github.com/stdlib-js/strided-base-nullary
+[@stdlib/strided/base/nullary]: https://github.com/stdlib-js/strided-base-nullary/tree/esm
 
-[@stdlib/strided/base/offset-view]: https://github.com/stdlib-js/strided-base-offset-view
+[@stdlib/strided/base/offset-view]: https://github.com/stdlib-js/strided-base-offset-view/tree/esm
 
-[@stdlib/strided/base/quaternary]: https://github.com/stdlib-js/strided-base-quaternary
+[@stdlib/strided/base/quaternary]: https://github.com/stdlib-js/strided-base-quaternary/tree/esm
 
-[@stdlib/strided/base/quinary]: https://github.com/stdlib-js/strided-base-quinary
+[@stdlib/strided/base/quinary]: https://github.com/stdlib-js/strided-base-quinary/tree/esm
 
-[@stdlib/strided/base/reinterpret-complex]: https://github.com/stdlib-js/strided-base-reinterpret-complex
+[@stdlib/strided/base/reinterpret-complex]: https://github.com/stdlib-js/strided-base-reinterpret-complex/tree/esm
 
-[@stdlib/strided/base/reinterpret-complex128]: https://github.com/stdlib-js/strided-base-reinterpret-complex128
+[@stdlib/strided/base/reinterpret-complex128]: https://github.com/stdlib-js/strided-base-reinterpret-complex128/tree/esm
 
-[@stdlib/strided/base/reinterpret-complex64]: https://github.com/stdlib-js/strided-base-reinterpret-complex64
+[@stdlib/strided/base/reinterpret-complex64]: https://github.com/stdlib-js/strided-base-reinterpret-complex64/tree/esm
 
-[@stdlib/strided/base/smap]: https://github.com/stdlib-js/strided-base-smap
+[@stdlib/strided/base/smap]: https://github.com/stdlib-js/strided-base-smap/tree/esm
 
-[@stdlib/strided/base/smap2]: https://github.com/stdlib-js/strided-base-smap2
+[@stdlib/strided/base/smap2]: https://github.com/stdlib-js/strided-base-smap2/tree/esm
 
-[@stdlib/strided/base/smskmap]: https://github.com/stdlib-js/strided-base-smskmap
+[@stdlib/strided/base/smskmap]: https://github.com/stdlib-js/strided-base-smskmap/tree/esm
 
-[@stdlib/strided/base/smskmap2]: https://github.com/stdlib-js/strided-base-smskmap2
+[@stdlib/strided/base/smskmap2]: https://github.com/stdlib-js/strided-base-smskmap2/tree/esm
 
-[@stdlib/strided/base/ternary]: https://github.com/stdlib-js/strided-base-ternary
+[@stdlib/strided/base/ternary]: https://github.com/stdlib-js/strided-base-ternary/tree/esm
 
-[@stdlib/strided/base/unary-addon-dispatch]: https://github.com/stdlib-js/strided-base-unary-addon-dispatch
+[@stdlib/strided/base/unary-addon-dispatch]: https://github.com/stdlib-js/strided-base-unary-addon-dispatch/tree/esm
 
-[@stdlib/strided/base/unary-by]: https://github.com/stdlib-js/strided-base-unary-by
+[@stdlib/strided/base/unary-by]: https://github.com/stdlib-js/strided-base-unary-by/tree/esm
 
-[@stdlib/strided/base/unary-dtype-signatures]: https://github.com/stdlib-js/strided-base-unary-dtype-signatures
+[@stdlib/strided/base/unary-dtype-signatures]: https://github.com/stdlib-js/strided-base-unary-dtype-signatures/tree/esm
 
-[@stdlib/strided/base/unary-signature-callbacks]: https://github.com/stdlib-js/strided-base-unary-signature-callbacks
+[@stdlib/strided/base/unary-signature-callbacks]: https://github.com/stdlib-js/strided-base-unary-signature-callbacks/tree/esm
 
-[@stdlib/strided/base/unary]: https://github.com/stdlib-js/strided-base-unary
+[@stdlib/strided/base/unary]: https://github.com/stdlib-js/strided-base-unary/tree/esm
 
-[@stdlib/strided/base/zmap]: https://github.com/stdlib-js/strided-base-zmap
+[@stdlib/strided/base/zmap]: https://github.com/stdlib-js/strided-base-zmap/tree/esm
 
 <!-- </toc-links> -->
 
