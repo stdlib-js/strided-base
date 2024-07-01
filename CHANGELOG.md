@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`ccaf9fe`](https://github.com/stdlib-js/stdlib/commit/ccaf9fe07622dcbb1816e8678a8de685c075b4e6) - update namespace TypeScript declarations [(#2490)](https://github.com/stdlib-js/stdlib/pull/2490)
 -   [`cc63b8b`](https://github.com/stdlib-js/stdlib/commit/cc63b8b462d786b370c07c7c68aad6a4b491c900) - add `reinterpretBoolean` to namespace
 -   [`adba03d`](https://github.com/stdlib-js/stdlib/commit/adba03dafef68163b55f1578802dc7ba87fbceb8) - add `stride2offset` to namespace
 
@@ -198,6 +199,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`ccaf9fe`](https://github.com/stdlib-js/stdlib/commit/ccaf9fe07622dcbb1816e8678a8de685c075b4e6) - **feat:** update namespace TypeScript declarations [(#2490)](https://github.com/stdlib-js/stdlib/pull/2490) _(by stdlib-bot, Athan Reines)_
 -   [`cc63b8b`](https://github.com/stdlib-js/stdlib/commit/cc63b8b462d786b370c07c7c68aad6a4b491c900) - **feat:** add `reinterpretBoolean` to namespace _(by Athan Reines)_
 -   [`adba03d`](https://github.com/stdlib-js/stdlib/commit/adba03dafef68163b55f1578802dc7ba87fbceb8) - **feat:** add `stride2offset` to namespace _(by Athan Reines)_
 -   [`11ad206`](https://github.com/stdlib-js/stdlib/commit/11ad206dbf92e0a1827ccdf5aa8f4c58bf82ed2a) - **bench:** fix function name _(by Athan Reines)_
