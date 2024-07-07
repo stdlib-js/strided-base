@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-01)
+## Unreleased (2024-07-07)
 
 <section class="packages">
 
@@ -20,6 +20,8 @@
 
 ##### Features
 
+-   [`082d2e9`](https://github.com/stdlib-js/stdlib/commit/082d2e98bb97b40f3ae8bbb1965728fe58747df1) - add boolean dtype support to `strided/base/binary-addon-dispatch` [(#2526)](https://github.com/stdlib-js/stdlib/pull/2526)
+-   [`599f5e4`](https://github.com/stdlib-js/stdlib/commit/599f5e4435bf9ae550a80162851521095b2410fc) - add boolean dtype support to `strided/base/binary` [(#2525)](https://github.com/stdlib-js/stdlib/pull/2525)
 -   [`ccaf9fe`](https://github.com/stdlib-js/stdlib/commit/ccaf9fe07622dcbb1816e8678a8de685c075b4e6) - update namespace TypeScript declarations [(#2490)](https://github.com/stdlib-js/stdlib/pull/2490)
 -   [`cc63b8b`](https://github.com/stdlib-js/stdlib/commit/cc63b8b462d786b370c07c7c68aad6a4b491c900) - add `reinterpretBoolean` to namespace
 -   [`adba03d`](https://github.com/stdlib-js/stdlib/commit/adba03dafef68163b55f1578802dc7ba87fbceb8) - add `stride2offset` to namespace
@@ -72,6 +74,16 @@
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`dc36936`](https://github.com/stdlib-js/stdlib/commit/dc369364ee617f8f62b40d951a0f0d34f795da6e) - add boolean dtype support to `strided/base/mskunary` [(#2520)](https://github.com/stdlib-js/stdlib/pull/2520)
+
+</section>
+
+<!-- /.features -->
+
 <section class="bug-fixes">
 
 ##### Bug Fixes
@@ -88,11 +100,43 @@
 
 <!-- /.package -->
 
+<section class="package" id="strided-base-mskunary-addon-dispatch-unreleased">
+
+#### [@stdlib/strided/base/mskunary-addon-dispatch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/base/mskunary-addon-dispatch)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f5ee96c`](https://github.com/stdlib-js/stdlib/commit/f5ee96c41495ce92c5d75ed0a2934ae9f92cf46c) - add boolean dtype support to `strided/base/mskunary-addon-dispatch` [(#2523)](https://github.com/stdlib-js/stdlib/pull/2523)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="strided-base-nullary-unreleased">
 
 #### [@stdlib/strided/base/nullary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/base/nullary)
 
 <details>
+
+<section class="features">
+
+##### Features
+
+-   [`4d3d36e`](https://github.com/stdlib-js/stdlib/commit/4d3d36e8b492c8df66a1fdbdb71ff7093d95aa9a) - add boolean dtype support to `strided/base/nullary` [(#2513)](https://github.com/stdlib-js/stdlib/pull/2513)
+
+</section>
+
+<!-- /.features -->
 
 <section class="bug-fixes">
 
@@ -103,6 +147,28 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="strided-base-nullary-addon-dispatch-unreleased">
+
+#### [@stdlib/strided/base/nullary-addon-dispatch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/base/nullary-addon-dispatch)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8831e32`](https://github.com/stdlib-js/stdlib/commit/8831e321bcf7a46141f66a9756f67dcc8d277ccc) - add boolean dtype support to `strided/base/nullary-addon-dispatch` [(#2521)](https://github.com/stdlib-js/stdlib/pull/2521)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -160,6 +226,16 @@
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`441d61c`](https://github.com/stdlib-js/stdlib/commit/441d61c7abef39ebb7bd9b2ce99a2300aa27cbfd) - add boolean dtype support to `strided/base/unary` [(#2519)](https://github.com/stdlib-js/stdlib/pull/2519)
+
+</section>
+
+<!-- /.features -->
+
 <section class="bug-fixes">
 
 ##### Bug Fixes
@@ -176,6 +252,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="strided-base-unary-addon-dispatch-unreleased">
+
+#### [@stdlib/strided/base/unary-addon-dispatch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/base/unary-addon-dispatch)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`867c4e2`](https://github.com/stdlib-js/stdlib/commit/867c4e221e2320d37c0f99dd47e19ab523c56c56) - add boolean dtype support to `strided/base/unary-addon-dispatch` [(#2522)](https://github.com/stdlib-js/stdlib/pull/2522)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -184,10 +282,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Jaysukh Makvana
+-   Philipp Burckhardt
 
 </section>
 
@@ -199,6 +298,37 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`4708d70`](https://github.com/stdlib-js/stdlib/commit/4708d704db87214af36a82e77072e3aade8c29fd) - **docs:** update namespace table of contents [(#2532)](2532) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`7b973eb`](https://github.com/stdlib-js/stdlib/commit/7b973eb5ce98a21ce6cb62021f9cb3090d7d5524) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`aeb7b51`](https://github.com/stdlib-js/stdlib/commit/aeb7b514c9b48c1ddbfb84dfd269b65838ec38c8) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`6249bfd`](https://github.com/stdlib-js/stdlib/commit/6249bfd06ccb8fcd57117473bed9e6f63f203fb9) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`320429f`](https://github.com/stdlib-js/stdlib/commit/320429f06d6e0c4b4007e232facd40be18e8dfa1) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`4436cd1`](https://github.com/stdlib-js/stdlib/commit/4436cd18548a94684e37bbb070d4d0c02d501e13) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`6d1214c`](https://github.com/stdlib-js/stdlib/commit/6d1214c3924e1ce46da96eec67443405fb2cdda6) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`fbe7514`](https://github.com/stdlib-js/stdlib/commit/fbe7514000293f76032de91b4c5f55621d16176f) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`07f85a1`](https://github.com/stdlib-js/stdlib/commit/07f85a1a76b4c043770509482d223a0895d65ae4) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`3656b32`](https://github.com/stdlib-js/stdlib/commit/3656b32bde500f96319833f3d4f80bfc18099ff1) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`bb1d8a0`](https://github.com/stdlib-js/stdlib/commit/bb1d8a06bb865dbac2fb8c9a6e69a5c9c46e1a05) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`cfcce81`](https://github.com/stdlib-js/stdlib/commit/cfcce813757c18dd4e58eb612d594efbba3023e3) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`e47b1be`](https://github.com/stdlib-js/stdlib/commit/e47b1be3a80eb9a7ab1fa9f421a133a580ce4366) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`95cf265`](https://github.com/stdlib-js/stdlib/commit/95cf2652a5c8938b7b682e562d29c0540f3f33ba) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`0d4ef60`](https://github.com/stdlib-js/stdlib/commit/0d4ef609d7df182136e5421b5340d92c466afb7c) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`741144c`](https://github.com/stdlib-js/stdlib/commit/741144c09dec958375c7d6e16e46cc08707e7506) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`1600510`](https://github.com/stdlib-js/stdlib/commit/1600510d9214b9a33dc4dffa26762c78a1fa88e2) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`223ff4e`](https://github.com/stdlib-js/stdlib/commit/223ff4e67a753e7707d9aac41d01905c17c434ed) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`abffdf1`](https://github.com/stdlib-js/stdlib/commit/abffdf1ac7615c960b4b496dfb7936f6f243d6d4) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`341533b`](https://github.com/stdlib-js/stdlib/commit/341533b52c5ed1a389655f411fb897376b7c72ca) - **refactor:** use utility to resolve offset _(by Athan Reines)_
+-   [`9bd72c5`](https://github.com/stdlib-js/stdlib/commit/9bd72c5900e083c88b4b0525359a627d25839ba0) - **refactor:** use utility to resolve stride _(by Athan Reines)_
+-   [`c1da2d5`](https://github.com/stdlib-js/stdlib/commit/c1da2d5a424afe0fe98ed5b91c119850d1f0b6f0) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`64592e5`](https://github.com/stdlib-js/stdlib/commit/64592e5433563c9b028393e16757ffd8efcc2f0a) - **refactor:** reduce code duplication _(by Athan Reines)_
+-   [`082d2e9`](https://github.com/stdlib-js/stdlib/commit/082d2e98bb97b40f3ae8bbb1965728fe58747df1) - **feat:** add boolean dtype support to `strided/base/binary-addon-dispatch` [(#2526)](https://github.com/stdlib-js/stdlib/pull/2526) _(by Jaysukh Makvana)_
+-   [`599f5e4`](https://github.com/stdlib-js/stdlib/commit/599f5e4435bf9ae550a80162851521095b2410fc) - **feat:** add boolean dtype support to `strided/base/binary` [(#2525)](https://github.com/stdlib-js/stdlib/pull/2525) _(by Jaysukh Makvana, Athan Reines)_
+-   [`dc36936`](https://github.com/stdlib-js/stdlib/commit/dc369364ee617f8f62b40d951a0f0d34f795da6e) - **feat:** add boolean dtype support to `strided/base/mskunary` [(#2520)](https://github.com/stdlib-js/stdlib/pull/2520) _(by Jaysukh Makvana)_
+-   [`441d61c`](https://github.com/stdlib-js/stdlib/commit/441d61c7abef39ebb7bd9b2ce99a2300aa27cbfd) - **feat:** add boolean dtype support to `strided/base/unary` [(#2519)](https://github.com/stdlib-js/stdlib/pull/2519) _(by Jaysukh Makvana)_
+-   [`f5ee96c`](https://github.com/stdlib-js/stdlib/commit/f5ee96c41495ce92c5d75ed0a2934ae9f92cf46c) - **feat:** add boolean dtype support to `strided/base/mskunary-addon-dispatch` [(#2523)](https://github.com/stdlib-js/stdlib/pull/2523) _(by Jaysukh Makvana)_
+-   [`867c4e2`](https://github.com/stdlib-js/stdlib/commit/867c4e221e2320d37c0f99dd47e19ab523c56c56) - **feat:** add boolean dtype support to `strided/base/unary-addon-dispatch` [(#2522)](https://github.com/stdlib-js/stdlib/pull/2522) _(by Jaysukh Makvana)_
+-   [`8831e32`](https://github.com/stdlib-js/stdlib/commit/8831e321bcf7a46141f66a9756f67dcc8d277ccc) - **feat:** add boolean dtype support to `strided/base/nullary-addon-dispatch` [(#2521)](https://github.com/stdlib-js/stdlib/pull/2521) _(by Jaysukh Makvana)_
+-   [`4d3d36e`](https://github.com/stdlib-js/stdlib/commit/4d3d36e8b492c8df66a1fdbdb71ff7093d95aa9a) - **feat:** add boolean dtype support to `strided/base/nullary` [(#2513)](https://github.com/stdlib-js/stdlib/pull/2513) _(by Jaysukh Makvana, Athan Reines)_
 -   [`ccaf9fe`](https://github.com/stdlib-js/stdlib/commit/ccaf9fe07622dcbb1816e8678a8de685c075b4e6) - **feat:** update namespace TypeScript declarations [(#2490)](https://github.com/stdlib-js/stdlib/pull/2490) _(by stdlib-bot, Athan Reines)_
 -   [`cc63b8b`](https://github.com/stdlib-js/stdlib/commit/cc63b8b462d786b370c07c7c68aad6a4b491c900) - **feat:** add `reinterpretBoolean` to namespace _(by Athan Reines)_
 -   [`adba03d`](https://github.com/stdlib-js/stdlib/commit/adba03dafef68163b55f1578802dc7ba87fbceb8) - **feat:** add `stride2offset` to namespace _(by Athan Reines)_

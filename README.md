@@ -105,6 +105,7 @@ The following functions are currently exported:
 -   <span class="signature">[`offsetView( x, offset )`][@stdlib/strided/base/offset-view]</span><span class="delimiter">: </span><span class="description">return a typed array view having the same data type as a provided input typed array and starting at a specified index offset.</span>
 -   <span class="signature">[`quaternary( arrays, shape, strides, fcn )`][@stdlib/strided/base/quaternary]</span><span class="delimiter">: </span><span class="description">apply a quaternary callback to strided input array elements and assign results to elements in a strided output array.</span>
 -   <span class="signature">[`quinary( arrays, shape, strides, fcn )`][@stdlib/strided/base/quinary]</span><span class="delimiter">: </span><span class="description">apply a quinary callback to strided input array elements and assign results to elements in a strided output array.</span>
+-   <span class="signature">[`reinterpretBoolean( x, offset )`][@stdlib/strided/base/reinterpret-boolean]</span><span class="delimiter">: </span><span class="description">reinterpret a `BooleanArray` as a `Uint8Array`.</span>
 -   <span class="signature">[`reinterpretComplex( x, offset )`][@stdlib/strided/base/reinterpret-complex]</span><span class="delimiter">: </span><span class="description">reinterpret a complex-valued floating-point array as a real-valued floating-point array having the same precision.</span>
 -   <span class="signature">[`reinterpretComplex128( x, offset )`][@stdlib/strided/base/reinterpret-complex128]</span><span class="delimiter">: </span><span class="description">reinterpret a `Complex128Array` as a `Float64Array`.</span>
 -   <span class="signature">[`reinterpretComplex64( x, offset )`][@stdlib/strided/base/reinterpret-complex64]</span><span class="delimiter">: </span><span class="description">reinterpret a `Complex64Array` as a `Float32Array`.</span>
@@ -112,6 +113,7 @@ The following functions are currently exported:
 -   <span class="signature">[`smap2( N, x, strideX, y, strideY, z, strideZ, fcn )`][@stdlib/strided/base/smap2]</span><span class="delimiter">: </span><span class="description">apply a binary function to single-precision floating-point strided input arrays and assign results to a single-precision floating-point strided output array.</span>
 -   <span class="signature">[`smskmap( N, x, strideX, mask, strideMask, y, strideY, fcn )`][@stdlib/strided/base/smskmap]</span><span class="delimiter">: </span><span class="description">apply a unary function to a single-precision floating-point strided input array according to a strided mask array and assign results to a single-precision floating-point strided output array.</span>
 -   <span class="signature">[`smskmap2( N, x, strideX, y, strideY, mask, strideMask, z, strideZ, fcn )`][@stdlib/strided/base/smskmap2]</span><span class="delimiter">: </span><span class="description">apply a binary function to single-precision floating-point strided input arrays according to a strided mask array and assign results to a single-precision floating-point strided output array.</span>
+-   <span class="signature">[`stride2offset( N, stride )`][@stdlib/strided/base/stride2offset]</span><span class="delimiter">: </span><span class="description">determine the index offset which specifies the location of the first indexed value in a strided array.</span>
 -   <span class="signature">[`ternary( arrays, shape, strides, fcn )`][@stdlib/strided/base/ternary]</span><span class="delimiter">: </span><span class="description">apply a ternary callback to strided input array elements and assign results to elements in a strided output array.</span>
 -   <span class="signature">[`unaryAddonDispatch( addon, fallback )`][@stdlib/strided/base/unary-addon-dispatch]</span><span class="delimiter">: </span><span class="description">dispatch to a native add-on applying a unary function to an input strided array.</span>
 -   <span class="signature">[`unaryBy( arrays, shape, strides, fcn, clbk[, thisArg] )`][@stdlib/strided/base/unary-by]</span><span class="delimiter">: </span><span class="description">apply a unary function to each element retrieved from a strided input array according to a callback function and assign results to a strided output array.</span>
@@ -283,6 +285,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/strided/base/quinary]: https://github.com/stdlib-js/strided-base-quinary
 
+[@stdlib/strided/base/reinterpret-boolean]: https://github.com/stdlib-js/strided-base-reinterpret-boolean
+
 [@stdlib/strided/base/reinterpret-complex]: https://github.com/stdlib-js/strided-base-reinterpret-complex
 
 [@stdlib/strided/base/reinterpret-complex128]: https://github.com/stdlib-js/strided-base-reinterpret-complex128
@@ -296,6 +300,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [@stdlib/strided/base/smskmap]: https://github.com/stdlib-js/strided-base-smskmap
 
 [@stdlib/strided/base/smskmap2]: https://github.com/stdlib-js/strided-base-smskmap2
+
+[@stdlib/strided/base/stride2offset]: https://github.com/stdlib-js/strided-base-stride2offset
 
 [@stdlib/strided/base/ternary]: https://github.com/stdlib-js/strided-base-ternary
 
