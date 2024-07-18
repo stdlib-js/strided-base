@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-07)
+## Unreleased (2024-07-18)
 
 <section class="packages">
 
@@ -298,6 +298,14 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`0406147`](https://github.com/stdlib-js/stdlib/commit/04061476d1036e1b8b786736b1ba1653eddff1ef) - **refactor:** update paths _(by Athan Reines)_
+-   [`b9703b5`](https://github.com/stdlib-js/stdlib/commit/b9703b569dc2f0a67e604e388a0d188b08138b48) - **refactor:** update paths _(by Athan Reines)_
+-   [`32bbcb3`](https://github.com/stdlib-js/stdlib/commit/32bbcb3b3dae1f028fd18166ee7875a93d44d0ee) - **refactor:** update paths _(by Athan Reines)_
+-   [`8d4c46b`](https://github.com/stdlib-js/stdlib/commit/8d4c46b10ca912401e0ff0caa37a17cd3c443c2f) - **refactor:** update paths _(by Athan Reines)_
+-   [`ed9c0a5`](https://github.com/stdlib-js/stdlib/commit/ed9c0a5e55ff09af3dd6af8c38615480e2c1828e) - **refactor:** update paths _(by Athan Reines)_
+-   [`18b3c79`](https://github.com/stdlib-js/stdlib/commit/18b3c79c5035c7082618b7379cd6576e64393a96) - **refactor:** update paths _(by Athan Reines)_
+-   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
+-   [`1f39c86`](https://github.com/stdlib-js/stdlib/commit/1f39c864924bf3d3cf4b5d8d39010e634416b66d) - **docs:** fix example _(by Athan Reines)_
 -   [`4708d70`](https://github.com/stdlib-js/stdlib/commit/4708d704db87214af36a82e77072e3aade8c29fd) - **docs:** update namespace table of contents [(#2532)](2532) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`7b973eb`](https://github.com/stdlib-js/stdlib/commit/7b973eb5ce98a21ce6cb62021f9cb3090d7d5524) - **refactor:** reduce code duplication _(by Athan Reines)_
 -   [`aeb7b51`](https://github.com/stdlib-js/stdlib/commit/aeb7b514c9b48c1ddbfb84dfd269b65838ec38c8) - **refactor:** reduce code duplication _(by Athan Reines)_
