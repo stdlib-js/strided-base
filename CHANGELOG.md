@@ -4,9 +4,145 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-01)
+## Unreleased (2024-09-12)
 
-No changes reported for this release.
+<section class="packages">
+
+### Packages
+
+<section class="package" id="strided-base-unreleased">
+
+#### [@stdlib/strided/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/base)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`66edaac`](https://github.com/stdlib-js/stdlib/commit/66edaac1799b998fa00c14e6bc0f31db79ad18d4) - add `writeDataView` to namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="strided-base-max-view-buffer-index-unreleased">
+
+#### [@stdlib/strided/base/max-view-buffer-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/base/max-view-buffer-index)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`33bda21`](https://github.com/stdlib-js/stdlib/commit/33bda211ab94674737e60da4113c7d5f15661934) - add C API
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="strided-base-min-view-buffer-index-unreleased">
+
+#### [@stdlib/strided/base/min-view-buffer-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/base/min-view-buffer-index)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`50795c2`](https://github.com/stdlib-js/stdlib/commit/50795c21034e39baf48e77ef50358af6f52ceb96) - add C API
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`2ca8d8f`](https://github.com/stdlib-js/stdlib/commit/2ca8d8f5f7b6db6f38c3149e0d524db6d9e80b59) - update declaration
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="strided-base-write--unreleased">
+
+#### [@stdlib/strided/base/write-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/base/write-)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`dd143b9`](https://github.com/stdlib-js/stdlib/commit/dd143b98c8207e4cab846d9c9a5c0162fb10ee5a) - add `strided/base/write-dataview`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`029dfd6`](https://github.com/stdlib-js/stdlib/commit/029dfd67172ab20604f843cdbc5f8106c881ae0c) - **docs:** fix examples _(by Athan Reines)_
+-   [`66edaac`](https://github.com/stdlib-js/stdlib/commit/66edaac1799b998fa00c14e6bc0f31db79ad18d4) - **feat:** add `writeDataView` to namespace _(by Athan Reines)_
+-   [`dd143b9`](https://github.com/stdlib-js/stdlib/commit/dd143b98c8207e4cab846d9c9a5c0162fb10ee5a) - **feat:** add `strided/base/write-dataview` _(by Athan Reines)_
+-   [`33bda21`](https://github.com/stdlib-js/stdlib/commit/33bda211ab94674737e60da4113c7d5f15661934) - **feat:** add C API _(by Athan Reines)_
+-   [`2ca8d8f`](https://github.com/stdlib-js/stdlib/commit/2ca8d8f5f7b6db6f38c3149e0d524db6d9e80b59) - **fix:** update declaration _(by Athan Reines)_
+-   [`50795c2`](https://github.com/stdlib-js/stdlib/commit/50795c21034e39baf48e77ef50358af6f52ceb96) - **feat:** add C API _(by Athan Reines)_
+-   [`fba5621`](https://github.com/stdlib-js/stdlib/commit/fba562144708136533371a0a765bfd834f756601) - **refactor:** annotate parameters as constants and fix docs _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
 
 </section>
 
