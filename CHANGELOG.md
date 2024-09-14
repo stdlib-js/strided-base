@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-12)
+## Unreleased (2024-09-14)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`dea5a9b`](https://github.com/stdlib-js/stdlib/commit/dea5a9bf9264c43b6e62af90c39f038b5d4f249d) - add `readDataView` to namespace
 -   [`66edaac`](https://github.com/stdlib-js/stdlib/commit/66edaac1799b998fa00c14e6bc0f31db79ad18d4) - add `writeDataView` to namespace
 
 </section>
@@ -86,6 +87,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="strided-base-read--unreleased">
+
+#### [@stdlib/strided/base/read-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/base/read-)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1584e8c`](https://github.com/stdlib-js/stdlib/commit/1584e8c0a7f196580a5d9a0fa4c64a1c06102218) - add `strided/base/read-dataview`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="strided-base-write--unreleased">
 
 #### [@stdlib/strided/base/write-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/base/write-)
@@ -130,6 +153,9 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`dea5a9b`](https://github.com/stdlib-js/stdlib/commit/dea5a9bf9264c43b6e62af90c39f038b5d4f249d) - **feat:** add `readDataView` to namespace _(by Athan Reines)_
+-   [`1584e8c`](https://github.com/stdlib-js/stdlib/commit/1584e8c0a7f196580a5d9a0fa4c64a1c06102218) - **feat:** add `strided/base/read-dataview` _(by Athan Reines)_
+-   [`6ca3c57`](https://github.com/stdlib-js/stdlib/commit/6ca3c5745b7c01e973da3d3c4e62d549e53afb9f) - **docs:** fix copy _(by Athan Reines)_
 -   [`029dfd6`](https://github.com/stdlib-js/stdlib/commit/029dfd67172ab20604f843cdbc5f8106c881ae0c) - **docs:** fix examples _(by Athan Reines)_
 -   [`66edaac`](https://github.com/stdlib-js/stdlib/commit/66edaac1799b998fa00c14e6bc0f31db79ad18d4) - **feat:** add `writeDataView` to namespace _(by Athan Reines)_
 -   [`dd143b9`](https://github.com/stdlib-js/stdlib/commit/dd143b98c8207e4cab846d9c9a5c0162fb10ee5a) - **feat:** add `strided/base/write-dataview` _(by Athan Reines)_

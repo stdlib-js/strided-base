@@ -63,6 +63,7 @@
     "@stdlib/strided-base-offset-view": "^0.2.2",
     "@stdlib/strided-base-quaternary": "^0.2.2",
     "@stdlib/strided-base-quinary": "^0.2.2",
+    "@stdlib/strided-base-read-dataview": "github:stdlib-js/strided-base-read-dataview#main",
     "@stdlib/strided-base-reinterpret-boolean": "^0.0.2",
     "@stdlib/strided-base-reinterpret-complex": "^0.1.2",
     "@stdlib/strided-base-reinterpret-complex128": "^0.2.2",
