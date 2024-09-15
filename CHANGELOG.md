@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-14)
+## Unreleased (2024-09-15)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`1b3cf97`](https://github.com/stdlib-js/stdlib/commit/1b3cf97bd73b4f48b413f68fe5f4377489cd44c8) - add `strided2object` to namespace
 -   [`dea5a9b`](https://github.com/stdlib-js/stdlib/commit/dea5a9bf9264c43b6e62af90c39f038b5d4f249d) - add `readDataView` to namespace
 -   [`66edaac`](https://github.com/stdlib-js/stdlib/commit/66edaac1799b998fa00c14e6bc0f31db79ad18d4) - add `writeDataView` to namespace
 
@@ -109,6 +110,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="strided-base-strided2object-unreleased">
+
+#### [@stdlib/strided/base/strided2object](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/base/strided2object)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6f6df5d`](https://github.com/stdlib-js/stdlib/commit/6f6df5d539a8035cb3af7b1ceec0ead1ee943bee) - add `strided/base/strided2object`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="strided-base-write--unreleased">
 
 #### [@stdlib/strided/base/write-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/base/write-)
@@ -153,6 +176,9 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`1b3cf97`](https://github.com/stdlib-js/stdlib/commit/1b3cf97bd73b4f48b413f68fe5f4377489cd44c8) - **feat:** add `strided2object` to namespace _(by Athan Reines)_
+-   [`6f6df5d`](https://github.com/stdlib-js/stdlib/commit/6f6df5d539a8035cb3af7b1ceec0ead1ee943bee) - **feat:** add `strided/base/strided2object` _(by Athan Reines)_
+-   [`6485a76`](https://github.com/stdlib-js/stdlib/commit/6485a7699b2176a95159769a6e461a09185f7721) - **docs:** update examples _(by Athan Reines)_
 -   [`dea5a9b`](https://github.com/stdlib-js/stdlib/commit/dea5a9bf9264c43b6e62af90c39f038b5d4f249d) - **feat:** add `readDataView` to namespace _(by Athan Reines)_
 -   [`1584e8c`](https://github.com/stdlib-js/stdlib/commit/1584e8c0a7f196580a5d9a0fa4c64a1c06102218) - **feat:** add `strided/base/read-dataview` _(by Athan Reines)_
 -   [`6ca3c57`](https://github.com/stdlib-js/stdlib/commit/6ca3c5745b7c01e973da3d3c4e62d549e53afb9f) - **docs:** fix copy _(by Athan Reines)_
