@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-15)
+## Unreleased (2024-11-20)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 -   [`1b3cf97`](https://github.com/stdlib-js/stdlib/commit/1b3cf97bd73b4f48b413f68fe5f4377489cd44c8) - add `strided2object` to namespace
 -   [`dea5a9b`](https://github.com/stdlib-js/stdlib/commit/dea5a9bf9264c43b6e62af90c39f038b5d4f249d) - add `readDataView` to namespace
 -   [`66edaac`](https://github.com/stdlib-js/stdlib/commit/66edaac1799b998fa00c14e6bc0f31db79ad18d4) - add `writeDataView` to namespace
@@ -27,6 +28,18 @@
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
+
+    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -120,6 +133,7 @@
 
 ##### Features
 
+-   [`c442b93`](https://github.com/stdlib-js/stdlib/commit/c442b93d2ed3af2a2f50402b4b0dc87e9090f596) - add `blas/base/drotm-wasm` [(#3021)](https://github.com/stdlib-js/stdlib/pull/3021)
 -   [`6f6df5d`](https://github.com/stdlib-js/stdlib/commit/6f6df5d539a8035cb3af7b1ceec0ead1ee943bee) - add `strided/base/strided2object`
 
 </section>
@@ -158,13 +172,27 @@
 
 <!-- /.packages -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
+
+    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="contributors">
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Aman Bhansali
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
@@ -176,6 +204,14 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`c442b93`](https://github.com/stdlib-js/stdlib/commit/c442b93d2ed3af2a2f50402b4b0dc87e9090f596) - **feat:** add `blas/base/drotm-wasm` [(#3021)](https://github.com/stdlib-js/stdlib/pull/3021) _(by Aman Bhansali, Athan Reines)_
+-   [`2c4e5d8`](https://github.com/stdlib-js/stdlib/commit/2c4e5d824e0c5dc8fd536bf79ff565cee100ce46) - **build:** disable additional lint rule in TS tests _(by Philipp Burckhardt)_
+-   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
+-   [`ff9fa81`](https://github.com/stdlib-js/stdlib/commit/ff9fa81f917d539f1a11fba5580e1744991a8a11) - **docs:** fix TSDoc lint errors _(by Philipp Burckhardt)_
+-   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
+-   [`0c2eafb`](https://github.com/stdlib-js/stdlib/commit/0c2eafb772442a6b2ec4be78490c19f0a70d6235) - **docs:** fix copy and remove extraneous newline _(by Athan Reines)_
+-   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
 -   [`1b3cf97`](https://github.com/stdlib-js/stdlib/commit/1b3cf97bd73b4f48b413f68fe5f4377489cd44c8) - **feat:** add `strided2object` to namespace _(by Athan Reines)_
 -   [`6f6df5d`](https://github.com/stdlib-js/stdlib/commit/6f6df5d539a8035cb3af7b1ceec0ead1ee943bee) - **feat:** add `strided/base/strided2object` _(by Athan Reines)_
 -   [`6485a76`](https://github.com/stdlib-js/stdlib/commit/6485a7699b2176a95159769a6e461a09185f7721) - **docs:** update examples _(by Athan Reines)_
