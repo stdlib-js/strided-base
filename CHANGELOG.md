@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-20)
+## Unreleased (2024-11-21)
 
 <section class="packages">
 
@@ -204,6 +204,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b6a2b0b`](https://github.com/stdlib-js/stdlib/commit/b6a2b0b27dc8cc1e9fc02d9679a3ce468cf49b9d) - **docs:** update namespace table of contents [(#3192)](https://github.com/stdlib-js/stdlib/pull/3192) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`c442b93`](https://github.com/stdlib-js/stdlib/commit/c442b93d2ed3af2a2f50402b4b0dc87e9090f596) - **feat:** add `blas/base/drotm-wasm` [(#3021)](https://github.com/stdlib-js/stdlib/pull/3021) _(by Aman Bhansali, Athan Reines)_
 -   [`2c4e5d8`](https://github.com/stdlib-js/stdlib/commit/2c4e5d824e0c5dc8fd536bf79ff565cee100ce46) - **build:** disable additional lint rule in TS tests _(by Philipp Burckhardt)_
