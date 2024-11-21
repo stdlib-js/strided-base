@@ -35,20 +35,32 @@ limitations under the License.
 
 > Base strided.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/strided-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { binary, binaryAddonDispatch, binaryDtypeSignatures, binarySignatureCallbacks, cmap, dmap, dmap2, dmskmap, dmskmap2, dtypeEnum2Str, dtypeResolveEnum, dtypeResolveStr, dtypeStr2Enum, mapBy, mapBy2, maxViewBufferIndex, metaDataProps, minViewBufferIndex, mskunary, mskunaryAddonDispatch, mskunaryDtypeSignatures, mskunarySignatureCallbacks, nullary, nullaryAddonDispatch, offsetView, quaternary, quinary, readDataView, reinterpretBoolean, reinterpretComplex, reinterpretComplex128, reinterpretComplex64, smap, smap2, smskmap, smskmap2, stride2offset, strided2object, ternary, unary, unaryAddonDispatch, unaryBy, unaryDtypeSignatures, unarySignatureCallbacks, writeDataView, zmap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@esm/index.mjs';
+var ns = require( '@stdlib/strided-base' );
 ```
 
 #### ns
@@ -93,6 +105,7 @@ The following functions are currently exported:
 -   <span class="signature">[`offsetView( x, offset )`][@stdlib/strided/base/offset-view]</span><span class="delimiter">: </span><span class="description">return a typed array view having the same data type as a provided input typed array and starting at a specified index offset.</span>
 -   <span class="signature">[`quaternary( arrays, shape, strides, fcn )`][@stdlib/strided/base/quaternary]</span><span class="delimiter">: </span><span class="description">apply a quaternary callback to strided input array elements and assign results to elements in a strided output array.</span>
 -   <span class="signature">[`quinary( arrays, shape, strides, fcn )`][@stdlib/strided/base/quinary]</span><span class="delimiter">: </span><span class="description">apply a quinary callback to strided input array elements and assign results to elements in a strided output array.</span>
+-   <span class="signature">[`readDataView( N, view, strideView, out, strideOut, littleEndian )`][@stdlib/strided/base/read-dataview]</span><span class="delimiter">: </span><span class="description">copy elements from an input strided `DataView` to elements in an output strided array.</span>
 -   <span class="signature">[`reinterpretBoolean( x, offset )`][@stdlib/strided/base/reinterpret-boolean]</span><span class="delimiter">: </span><span class="description">reinterpret a `BooleanArray` as a `Uint8Array`.</span>
 -   <span class="signature">[`reinterpretComplex( x, offset )`][@stdlib/strided/base/reinterpret-complex]</span><span class="delimiter">: </span><span class="description">reinterpret a complex-valued floating-point array as a real-valued floating-point array having the same precision.</span>
 -   <span class="signature">[`reinterpretComplex128( x, offset )`][@stdlib/strided/base/reinterpret-complex128]</span><span class="delimiter">: </span><span class="description">reinterpret a `Complex128Array` as a `Float64Array`.</span>
@@ -102,12 +115,14 @@ The following functions are currently exported:
 -   <span class="signature">[`smskmap( N, x, strideX, mask, strideMask, y, strideY, fcn )`][@stdlib/strided/base/smskmap]</span><span class="delimiter">: </span><span class="description">apply a unary function to a single-precision floating-point strided input array according to a strided mask array and assign results to a single-precision floating-point strided output array.</span>
 -   <span class="signature">[`smskmap2( N, x, strideX, y, strideY, mask, strideMask, z, strideZ, fcn )`][@stdlib/strided/base/smskmap2]</span><span class="delimiter">: </span><span class="description">apply a binary function to single-precision floating-point strided input arrays according to a strided mask array and assign results to a single-precision floating-point strided output array.</span>
 -   <span class="signature">[`stride2offset( N, stride )`][@stdlib/strided/base/stride2offset]</span><span class="delimiter">: </span><span class="description">determine the index offset which specifies the location of the first indexed value in a strided array.</span>
+-   <span class="signature">[`strided2object( N, x, stride, offset )`][@stdlib/strided/base/strided2object]</span><span class="delimiter">: </span><span class="description">convert a strided array and associated metadata to an object likely to have the same "shape".</span>
 -   <span class="signature">[`ternary( arrays, shape, strides, fcn )`][@stdlib/strided/base/ternary]</span><span class="delimiter">: </span><span class="description">apply a ternary callback to strided input array elements and assign results to elements in a strided output array.</span>
 -   <span class="signature">[`unaryAddonDispatch( addon, fallback )`][@stdlib/strided/base/unary-addon-dispatch]</span><span class="delimiter">: </span><span class="description">dispatch to a native add-on applying a unary function to an input strided array.</span>
 -   <span class="signature">[`unaryBy( arrays, shape, strides, fcn, clbk[, thisArg] )`][@stdlib/strided/base/unary-by]</span><span class="delimiter">: </span><span class="description">apply a unary function to each element retrieved from a strided input array according to a callback function and assign results to a strided output array.</span>
 -   <span class="signature">[`unaryDtypeSignatures( dtypes1, dtypes2[, options] )`][@stdlib/strided/base/unary-dtype-signatures]</span><span class="delimiter">: </span><span class="description">generate a list of unary interface signatures from strided array data types.</span>
 -   <span class="signature">[`unarySignatureCallbacks( table, signatures )`][@stdlib/strided/base/unary-signature-callbacks]</span><span class="delimiter">: </span><span class="description">assign callbacks to unary interfaces according to type promotion rules.</span>
 -   <span class="signature">[`unary( arrays, shape, strides, fcn )`][@stdlib/strided/base/unary]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a strided input array and assign results to elements in a strided output array.</span>
+-   <span class="signature">[`writeDataView( N, x, strideX, view, strideView, littleEndian )`][@stdlib/strided/base/write-dataview]</span><span class="delimiter">: </span><span class="description">copy elements from an input strided array to elements in a strided `DataView`.</span>
 -   <span class="signature">[`zmap( N, x, strideX, y, strideY, fcn )`][@stdlib/strided/base/zmap]</span><span class="delimiter">: </span><span class="description">apply a unary function to a double-precision floating-point strided input array and assign results to a double-precision floating-point strided output array.</span>
 
 </div>
@@ -126,20 +141,11 @@ The following functions are currently exported:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/strided-base' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -163,7 +169,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -228,91 +234,97 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/strided/base/binary-addon-dispatch]: https://github.com/stdlib-js/strided-base-binary-addon-dispatch/tree/esm
+[@stdlib/strided/base/binary-addon-dispatch]: https://github.com/stdlib-js/strided-base-binary-addon-dispatch
 
-[@stdlib/strided/base/binary-dtype-signatures]: https://github.com/stdlib-js/strided-base-binary-dtype-signatures/tree/esm
+[@stdlib/strided/base/binary-dtype-signatures]: https://github.com/stdlib-js/strided-base-binary-dtype-signatures
 
-[@stdlib/strided/base/binary-signature-callbacks]: https://github.com/stdlib-js/strided-base-binary-signature-callbacks/tree/esm
+[@stdlib/strided/base/binary-signature-callbacks]: https://github.com/stdlib-js/strided-base-binary-signature-callbacks
 
-[@stdlib/strided/base/binary]: https://github.com/stdlib-js/strided-base-binary/tree/esm
+[@stdlib/strided/base/binary]: https://github.com/stdlib-js/strided-base-binary
 
-[@stdlib/strided/base/cmap]: https://github.com/stdlib-js/strided-base-cmap/tree/esm
+[@stdlib/strided/base/cmap]: https://github.com/stdlib-js/strided-base-cmap
 
-[@stdlib/strided/base/dmap]: https://github.com/stdlib-js/strided-base-dmap/tree/esm
+[@stdlib/strided/base/dmap]: https://github.com/stdlib-js/strided-base-dmap
 
-[@stdlib/strided/base/dmap2]: https://github.com/stdlib-js/strided-base-dmap2/tree/esm
+[@stdlib/strided/base/dmap2]: https://github.com/stdlib-js/strided-base-dmap2
 
-[@stdlib/strided/base/dmskmap]: https://github.com/stdlib-js/strided-base-dmskmap/tree/esm
+[@stdlib/strided/base/dmskmap]: https://github.com/stdlib-js/strided-base-dmskmap
 
-[@stdlib/strided/base/dmskmap2]: https://github.com/stdlib-js/strided-base-dmskmap2/tree/esm
+[@stdlib/strided/base/dmskmap2]: https://github.com/stdlib-js/strided-base-dmskmap2
 
-[@stdlib/strided/base/dtype-enum2str]: https://github.com/stdlib-js/strided-base-dtype-enum2str/tree/esm
+[@stdlib/strided/base/dtype-enum2str]: https://github.com/stdlib-js/strided-base-dtype-enum2str
 
-[@stdlib/strided/base/dtype-resolve-enum]: https://github.com/stdlib-js/strided-base-dtype-resolve-enum/tree/esm
+[@stdlib/strided/base/dtype-resolve-enum]: https://github.com/stdlib-js/strided-base-dtype-resolve-enum
 
-[@stdlib/strided/base/dtype-resolve-str]: https://github.com/stdlib-js/strided-base-dtype-resolve-str/tree/esm
+[@stdlib/strided/base/dtype-resolve-str]: https://github.com/stdlib-js/strided-base-dtype-resolve-str
 
-[@stdlib/strided/base/dtype-str2enum]: https://github.com/stdlib-js/strided-base-dtype-str2enum/tree/esm
+[@stdlib/strided/base/dtype-str2enum]: https://github.com/stdlib-js/strided-base-dtype-str2enum
 
-[@stdlib/strided/base/map-by]: https://github.com/stdlib-js/strided-base-map-by/tree/esm
+[@stdlib/strided/base/map-by]: https://github.com/stdlib-js/strided-base-map-by
 
-[@stdlib/strided/base/map-by2]: https://github.com/stdlib-js/strided-base-map-by2/tree/esm
+[@stdlib/strided/base/map-by2]: https://github.com/stdlib-js/strided-base-map-by2
 
-[@stdlib/strided/base/max-view-buffer-index]: https://github.com/stdlib-js/strided-base-max-view-buffer-index/tree/esm
+[@stdlib/strided/base/max-view-buffer-index]: https://github.com/stdlib-js/strided-base-max-view-buffer-index
 
-[@stdlib/strided/base/meta-data-props]: https://github.com/stdlib-js/strided-base-meta-data-props/tree/esm
+[@stdlib/strided/base/meta-data-props]: https://github.com/stdlib-js/strided-base-meta-data-props
 
-[@stdlib/strided/base/min-view-buffer-index]: https://github.com/stdlib-js/strided-base-min-view-buffer-index/tree/esm
+[@stdlib/strided/base/min-view-buffer-index]: https://github.com/stdlib-js/strided-base-min-view-buffer-index
 
-[@stdlib/strided/base/mskunary-addon-dispatch]: https://github.com/stdlib-js/strided-base-mskunary-addon-dispatch/tree/esm
+[@stdlib/strided/base/mskunary-addon-dispatch]: https://github.com/stdlib-js/strided-base-mskunary-addon-dispatch
 
-[@stdlib/strided/base/mskunary-dtype-signatures]: https://github.com/stdlib-js/strided-base-mskunary-dtype-signatures/tree/esm
+[@stdlib/strided/base/mskunary-dtype-signatures]: https://github.com/stdlib-js/strided-base-mskunary-dtype-signatures
 
-[@stdlib/strided/base/mskunary-signature-callbacks]: https://github.com/stdlib-js/strided-base-mskunary-signature-callbacks/tree/esm
+[@stdlib/strided/base/mskunary-signature-callbacks]: https://github.com/stdlib-js/strided-base-mskunary-signature-callbacks
 
-[@stdlib/strided/base/mskunary]: https://github.com/stdlib-js/strided-base-mskunary/tree/esm
+[@stdlib/strided/base/mskunary]: https://github.com/stdlib-js/strided-base-mskunary
 
-[@stdlib/strided/base/nullary-addon-dispatch]: https://github.com/stdlib-js/strided-base-nullary-addon-dispatch/tree/esm
+[@stdlib/strided/base/nullary-addon-dispatch]: https://github.com/stdlib-js/strided-base-nullary-addon-dispatch
 
-[@stdlib/strided/base/nullary]: https://github.com/stdlib-js/strided-base-nullary/tree/esm
+[@stdlib/strided/base/nullary]: https://github.com/stdlib-js/strided-base-nullary
 
-[@stdlib/strided/base/offset-view]: https://github.com/stdlib-js/strided-base-offset-view/tree/esm
+[@stdlib/strided/base/offset-view]: https://github.com/stdlib-js/strided-base-offset-view
 
-[@stdlib/strided/base/quaternary]: https://github.com/stdlib-js/strided-base-quaternary/tree/esm
+[@stdlib/strided/base/quaternary]: https://github.com/stdlib-js/strided-base-quaternary
 
-[@stdlib/strided/base/quinary]: https://github.com/stdlib-js/strided-base-quinary/tree/esm
+[@stdlib/strided/base/quinary]: https://github.com/stdlib-js/strided-base-quinary
 
-[@stdlib/strided/base/reinterpret-boolean]: https://github.com/stdlib-js/strided-base-reinterpret-boolean/tree/esm
+[@stdlib/strided/base/read-dataview]: https://github.com/stdlib-js/strided-base-read-dataview
 
-[@stdlib/strided/base/reinterpret-complex]: https://github.com/stdlib-js/strided-base-reinterpret-complex/tree/esm
+[@stdlib/strided/base/reinterpret-boolean]: https://github.com/stdlib-js/strided-base-reinterpret-boolean
 
-[@stdlib/strided/base/reinterpret-complex128]: https://github.com/stdlib-js/strided-base-reinterpret-complex128/tree/esm
+[@stdlib/strided/base/reinterpret-complex]: https://github.com/stdlib-js/strided-base-reinterpret-complex
 
-[@stdlib/strided/base/reinterpret-complex64]: https://github.com/stdlib-js/strided-base-reinterpret-complex64/tree/esm
+[@stdlib/strided/base/reinterpret-complex128]: https://github.com/stdlib-js/strided-base-reinterpret-complex128
 
-[@stdlib/strided/base/smap]: https://github.com/stdlib-js/strided-base-smap/tree/esm
+[@stdlib/strided/base/reinterpret-complex64]: https://github.com/stdlib-js/strided-base-reinterpret-complex64
 
-[@stdlib/strided/base/smap2]: https://github.com/stdlib-js/strided-base-smap2/tree/esm
+[@stdlib/strided/base/smap]: https://github.com/stdlib-js/strided-base-smap
 
-[@stdlib/strided/base/smskmap]: https://github.com/stdlib-js/strided-base-smskmap/tree/esm
+[@stdlib/strided/base/smap2]: https://github.com/stdlib-js/strided-base-smap2
 
-[@stdlib/strided/base/smskmap2]: https://github.com/stdlib-js/strided-base-smskmap2/tree/esm
+[@stdlib/strided/base/smskmap]: https://github.com/stdlib-js/strided-base-smskmap
 
-[@stdlib/strided/base/stride2offset]: https://github.com/stdlib-js/strided-base-stride2offset/tree/esm
+[@stdlib/strided/base/smskmap2]: https://github.com/stdlib-js/strided-base-smskmap2
 
-[@stdlib/strided/base/ternary]: https://github.com/stdlib-js/strided-base-ternary/tree/esm
+[@stdlib/strided/base/stride2offset]: https://github.com/stdlib-js/strided-base-stride2offset
 
-[@stdlib/strided/base/unary-addon-dispatch]: https://github.com/stdlib-js/strided-base-unary-addon-dispatch/tree/esm
+[@stdlib/strided/base/strided2object]: https://github.com/stdlib-js/strided-base-strided2object
 
-[@stdlib/strided/base/unary-by]: https://github.com/stdlib-js/strided-base-unary-by/tree/esm
+[@stdlib/strided/base/ternary]: https://github.com/stdlib-js/strided-base-ternary
 
-[@stdlib/strided/base/unary-dtype-signatures]: https://github.com/stdlib-js/strided-base-unary-dtype-signatures/tree/esm
+[@stdlib/strided/base/unary-addon-dispatch]: https://github.com/stdlib-js/strided-base-unary-addon-dispatch
 
-[@stdlib/strided/base/unary-signature-callbacks]: https://github.com/stdlib-js/strided-base-unary-signature-callbacks/tree/esm
+[@stdlib/strided/base/unary-by]: https://github.com/stdlib-js/strided-base-unary-by
 
-[@stdlib/strided/base/unary]: https://github.com/stdlib-js/strided-base-unary/tree/esm
+[@stdlib/strided/base/unary-dtype-signatures]: https://github.com/stdlib-js/strided-base-unary-dtype-signatures
 
-[@stdlib/strided/base/zmap]: https://github.com/stdlib-js/strided-base-zmap/tree/esm
+[@stdlib/strided/base/unary-signature-callbacks]: https://github.com/stdlib-js/strided-base-unary-signature-callbacks
+
+[@stdlib/strided/base/unary]: https://github.com/stdlib-js/strided-base-unary
+
+[@stdlib/strided/base/write-dataview]: https://github.com/stdlib-js/strided-base-write-dataview
+
+[@stdlib/strided/base/zmap]: https://github.com/stdlib-js/strided-base-zmap
 
 <!-- </toc-links> -->
 
