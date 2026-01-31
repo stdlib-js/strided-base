@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/strided-base/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@v0.4.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { binary, binaryAddonDispatch, binaryDtypeSignatures, binarySignatureCallbacks, cmap, dmap, dmap2, dmskmap, dmskmap2, dtypeEnum2Str, dtypeResolveEnum, dtypeResolveStr, dtypeStr2Enum, mapBy, mapBy2, maxViewBufferIndex, metaDataProps, minViewBufferIndex, mskunary, mskunaryAddonDispatch, mskunaryDtypeSignatures, mskunarySignatureCallbacks, nullary, nullaryAddonDispatch, offsetView, quaternary, quinary, readDataView, reinterpretBoolean, reinterpretComplex, reinterpretComplex128, reinterpretComplex64, smap, smap2, smskmap, smskmap2, stride2offset, strided2object, ternary, unary, unaryAddonDispatch, unaryBy, unaryDtypeSignatures, unarySignatureCallbacks, writeDataView, zmap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@v0.4.0-deno/mod.js';
+import { binary, binaryAddonDispatch, binaryDtypeSignatures, binarySignatureCallbacks, cmap, dmap, dmap2, dmskmap, dmskmap2, dtypeEnum2Str, dtypeResolveEnum, dtypeResolveStr, dtypeStr2Enum, mapBy, mapBy2, maxViewBufferIndex, metaDataProps, minViewBufferIndex, mskunary, mskunaryAddonDispatch, mskunaryDtypeSignatures, mskunarySignatureCallbacks, nullary, nullaryAddonDispatch, offsetView, quaternary, quinary, readDataView, reinterpretBoolean, reinterpretComplex, reinterpretComplex128, reinterpretComplex64, smap, smap2, smskmap, smskmap2, stride2offset, strided2object, ternary, unary, unaryAddonDispatch, unaryBy, unaryDtypeSignatures, unarySignatureCallbacks, writeDataView, zmap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@deno/mod.js';
 ```
 
 #### ns
@@ -131,7 +136,7 @@ The following functions are currently exported:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@v0.4.0-deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
