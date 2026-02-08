@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/strided-base/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@v0.4.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { binary, binaryAddonDispatch, binaryDtypeSignatures, binarySignatureCallbacks, cmap, dmap, dmap2, dmskmap, dmskmap2, dtypeEnum2Str, dtypeResolveEnum, dtypeResolveStr, dtypeStr2Enum, mapBy, mapBy2, maxViewBufferIndex, metaDataProps, minViewBufferIndex, mskunary, mskunaryAddonDispatch, mskunaryDtypeSignatures, mskunarySignatureCallbacks, nullary, nullaryAddonDispatch, offsetView, quaternary, quinary, readDataView, reinterpretBoolean, reinterpretComplex, reinterpretComplex128, reinterpretComplex64, smap, smap2, smskmap, smskmap2, stride2offset, strided2object, ternary, unary, unaryAddonDispatch, unaryBy, unaryDtypeSignatures, unarySignatureCallbacks, writeDataView, zmap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@v0.4.1-esm/index.mjs';
+import { binary, binaryAddonDispatch, binaryDtypeSignatures, binarySignatureCallbacks, cmap, dmap, dmap2, dmskmap, dmskmap2, dtypeEnum2Str, dtypeResolveEnum, dtypeResolveStr, dtypeStr2Enum, mapBy, mapBy2, maxViewBufferIndex, metaDataProps, minViewBufferIndex, mskunary, mskunaryAddonDispatch, mskunaryDtypeSignatures, mskunarySignatureCallbacks, nullary, nullaryAddonDispatch, offsetView, quaternary, quinary, readDataView, reinterpretBoolean, reinterpretComplex, reinterpretComplex128, reinterpretComplex64, smap, smap2, smskmap, smskmap2, stride2offset, strided2object, ternary, unary, unaryAddonDispatch, unaryBy, unaryDtypeSignatures, unarySignatureCallbacks, writeDataView, zmap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@esm/index.mjs';
 ```
 
 #### ns
@@ -136,7 +141,7 @@ The following functions are currently exported:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@v0.4.1-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
