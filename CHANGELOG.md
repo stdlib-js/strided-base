@@ -2,6 +2,59 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-09)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#10417](https://github.com/stdlib-js/stdlib/issues/10417)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`16607df`](https://github.com/stdlib-js/stdlib/commit/16607dfe75708434e77ea1ed8531bff8ebbe3a0c) - **bench:** refactor to use string interpolation in `strided/base/cmap` [(#10609)](https://github.com/stdlib-js/stdlib/pull/10609) _(by Vishal Gaikwad)_
+-   [`dfbed82`](https://github.com/stdlib-js/stdlib/commit/dfbed82e3f09510158b709dad9b0ad73f90beac0) - **bench:** refactor to use string interpolation in `strided/base/binary` [(#10515)](https://github.com/stdlib-js/stdlib/pull/10515) _(by Vishal Gaikwad)_
+-   [`1a62e75`](https://github.com/stdlib-js/stdlib/commit/1a62e75a0677036eccaa0485fe3a6ff5462428d5) - **bench:** use string interpolation in `strided/base/binary-signature-callbacks` [(#10581)](https://github.com/stdlib-js/stdlib/pull/10581) _(by Vishal Gaikwad)_
+-   [`c3789be`](https://github.com/stdlib-js/stdlib/commit/c3789bef602f59a085b2dd60fe691357e323da99) - **docs:** fix example _(by Athan Reines)_
+-   [`786e059`](https://github.com/stdlib-js/stdlib/commit/786e0590341f600854e001e75285b7a6afdb7319) - **chore:** fix C lint errors [(#10418)](https://github.com/stdlib-js/stdlib/pull/10418) _(by Geo Daoyu)_
+-   [`a65cb70`](https://github.com/stdlib-js/stdlib/commit/a65cb70770257d5d69d35aa6b6b2d76879f33dfc) - **bench:** refactor to use string interpolation in `strided/base/binary-addon-dispatch` [(#10519)](https://github.com/stdlib-js/stdlib/pull/10519) _(by Vishal Gaikwad)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Geo Daoyu
+-   Vishal Gaikwad
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.1">
 
 ## 0.4.1 (2026-02-08)
