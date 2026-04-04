@@ -4,15 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-09)
+## Unreleased (2026-04-04)
 
 <section class="issues">
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#10417](https://github.com/stdlib-js/stdlib/issues/10417)
+[#10417](https://github.com/stdlib-js/stdlib/issues/10417), [#11210](https://github.com/stdlib-js/stdlib/issues/11210)
 
 </section>
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`3fce7ca`](https://github.com/stdlib-js/stdlib/commit/3fce7cabbff413b740fab27fa38db053445905ec) - **chore:** fix C lint errors [(#11236)](https://github.com/stdlib-js/stdlib/pull/11236) _(by Geo Daoyu)_
 -   [`16607df`](https://github.com/stdlib-js/stdlib/commit/16607dfe75708434e77ea1ed8531bff8ebbe3a0c) - **bench:** refactor to use string interpolation in `strided/base/cmap` [(#10609)](https://github.com/stdlib-js/stdlib/pull/10609) _(by Vishal Gaikwad)_
 -   [`dfbed82`](https://github.com/stdlib-js/stdlib/commit/dfbed82e3f09510158b709dad9b0ad73f90beac0) - **bench:** refactor to use string interpolation in `strided/base/binary` [(#10515)](https://github.com/stdlib-js/stdlib/pull/10515) _(by Vishal Gaikwad)_
 -   [`1a62e75`](https://github.com/stdlib-js/stdlib/commit/1a62e75a0677036eccaa0485fe3a6ff5462428d5) - **bench:** use string interpolation in `strided/base/binary-signature-callbacks` [(#10581)](https://github.com/stdlib-js/stdlib/pull/10581) _(by Vishal Gaikwad)_
