@@ -4,7 +4,18 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-12)
+## Unreleased (2026-05-13)
+
+<section class="features">
+
+### Features
+
+-   [`10db754`](https://github.com/stdlib-js/stdlib/commit/10db7544d5d16543c9481218723efb391ceccdf5) - add `reinterpretFloat16` to namespace
+-   [`6ea601b`](https://github.com/stdlib-js/stdlib/commit/6ea601bc4135b0439a63eae106cff3414ec920f5) - add `strided/base/reinterpret-float16` [(#11932)](https://github.com/stdlib-js/stdlib/pull/11932)
+
+</section>
+
+<!-- /.features -->
 
 <section class="issues">
 
@@ -24,6 +35,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`10db754`](https://github.com/stdlib-js/stdlib/commit/10db7544d5d16543c9481218723efb391ceccdf5) - **feat:** add `reinterpretFloat16` to namespace _(by Athan Reines)_
+-   [`6ea601b`](https://github.com/stdlib-js/stdlib/commit/6ea601bc4135b0439a63eae106cff3414ec920f5) - **feat:** add `strided/base/reinterpret-float16` [(#11932)](https://github.com/stdlib-js/stdlib/pull/11932) _(by Gururaj Gurram)_
 -   [`8f410a3`](https://github.com/stdlib-js/stdlib/commit/8f410a3a753afc40f7e5b6bf0431e8cf70154865) - **test:** use correct `float32` imports in `strided/base` [(#12059)](https://github.com/stdlib-js/stdlib/pull/12059) _(by Karan Anand)_
 -   [`8e870bf`](https://github.com/stdlib-js/stdlib/commit/8e870bf7e5459a7a2c781004e35c559972b52d39) - **docs:** use correct `real`/`imag` import in `strided/base/cmap` [(#12057)](https://github.com/stdlib-js/stdlib/pull/12057) _(by Karan Anand)_
 -   [`9a829b3`](https://github.com/stdlib-js/stdlib/commit/9a829b3090c6d1662462f32bf494bce378b3f955) - **test:** fix `Complex64` import in `strided/base/binary` [(#12041)](https://github.com/stdlib-js/stdlib/pull/12041) _(by Karan Anand)_
@@ -54,11 +67,12 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Clinton Phillips
 -   Geo Daoyu
+-   Gururaj Gurram
 -   Karan Anand
 -   Uday Kakade
 -   Vishal Gaikwad
