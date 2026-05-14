@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-13)
+## Unreleased (2026-05-14)
 
 <section class="features">
 
@@ -35,6 +35,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`ed4312c`](https://github.com/stdlib-js/stdlib/commit/ed4312c3a3ef001cdfb062efcfbddeade9396973) - **docs:** update namespace table of contents [(#12124)](https://github.com/stdlib-js/stdlib/pull/12124) _(by stdlib-bot)_
 -   [`10db754`](https://github.com/stdlib-js/stdlib/commit/10db7544d5d16543c9481218723efb391ceccdf5) - **feat:** add `reinterpretFloat16` to namespace _(by Athan Reines)_
 -   [`6ea601b`](https://github.com/stdlib-js/stdlib/commit/6ea601bc4135b0439a63eae106cff3414ec920f5) - **feat:** add `strided/base/reinterpret-float16` [(#11932)](https://github.com/stdlib-js/stdlib/pull/11932) _(by Gururaj Gurram)_
 -   [`8f410a3`](https://github.com/stdlib-js/stdlib/commit/8f410a3a753afc40f7e5b6bf0431e8cf70154865) - **test:** use correct `float32` imports in `strided/base` [(#12059)](https://github.com/stdlib-js/stdlib/pull/12059) _(by Karan Anand)_
