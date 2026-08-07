@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-24)
+## Unreleased (2026-08-07)
 
 <section class="features">
 
@@ -17,13 +17,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="issues">
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 6 issues were closed in this release:
 
-[#10417](https://github.com/stdlib-js/stdlib/issues/10417), [#11210](https://github.com/stdlib-js/stdlib/issues/11210), [#11274](https://github.com/stdlib-js/stdlib/issues/11274), [#11852](https://github.com/stdlib-js/stdlib/issues/11852)
+[#10417](https://github.com/stdlib-js/stdlib/issues/10417), [#11210](https://github.com/stdlib-js/stdlib/issues/11210), [#11274](https://github.com/stdlib-js/stdlib/issues/11274), [#11852](https://github.com/stdlib-js/stdlib/issues/11852), [#13096](https://github.com/stdlib-js/stdlib/issues/13096), [#13733](https://github.com/stdlib-js/stdlib/issues/13733)
 
 </section>
 
@@ -35,6 +45,14 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
+-   [`430fdea`](https://github.com/stdlib-js/stdlib/commit/430fdea947428af11c0e75dc6f6a0bd3cbd13e88) - **chore:** clean-up [(#13805)](https://github.com/stdlib-js/stdlib/pull/13805) _(by Philipp Burckhardt)_
+-   [`d5a00c3`](https://github.com/stdlib-js/stdlib/commit/d5a00c3302f2b8aef697753c513f290782feb966) - **chore:** fix C lint errors [(#13741)](https://github.com/stdlib-js/stdlib/pull/13741) _(by A Sivasubramanian Manoj, Athan Reines)_
+-   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
+-   [`482a842`](https://github.com/stdlib-js/stdlib/commit/482a84253af42d8c6b04078e4e83baaa346ec97e) - **chore:** fix JavaScript lint errors [(#13582)](https://github.com/stdlib-js/stdlib/pull/13582) _(by Ujjwal Verma)_
+-   [`945328a`](https://github.com/stdlib-js/stdlib/commit/945328aa14e710f4b828b8fa303173c660c77817) - **chore:** clean-up [(#13390)](https://github.com/stdlib-js/stdlib/pull/13390) _(by Philipp Burckhardt)_
+-   [`ae0704c`](https://github.com/stdlib-js/stdlib/commit/ae0704c8acf3023469ab02686154e26193a601cd) - **docs:** fix typo `PREMABLE` to `PREAMBLE` [(#13130)](https://github.com/stdlib-js/stdlib/pull/13130) _(by anee3)_
+-   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
 -   [`0a24f0b`](https://github.com/stdlib-js/stdlib/commit/0a24f0b4cc1cf82c352a98d077cbd96d4144adb0) - **docs:** update related packages sections [(#12338)](https://github.com/stdlib-js/stdlib/pull/12338) _(by stdlib-bot)_
 -   [`7b1cb99`](https://github.com/stdlib-js/stdlib/commit/7b1cb991f5525a57cfa7254bb7682060a6d85c7b) - **chore:** use `format` for error messages in strided build scripts [(#12178)](https://github.com/stdlib-js/stdlib/pull/12178) _(by Philipp Burckhardt)_
 -   [`ed4312c`](https://github.com/stdlib-js/stdlib/commit/ed4312c3a3ef001cdfb062efcfbddeade9396973) - **docs:** update namespace table of contents [(#12124)](https://github.com/stdlib-js/stdlib/pull/12124) _(by stdlib-bot)_
@@ -70,8 +88,9 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 11 people contributed to this release. Thank you to the following contributors:
 
+-   A Sivasubramanian Manoj
 -   Athan Reines
 -   Clinton Phillips
 -   Geo Daoyu
@@ -79,6 +98,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   Karan Anand
 -   Philipp Burckhardt
 -   Uday Kakade
+-   Ujjwal Verma
 -   Vishal Gaikwad
 -   anee3
 
