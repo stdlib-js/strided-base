@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`60897b1`](https://github.com/stdlib-js/stdlib/commit/60897b161fcdb3a8724facbac31a15137cb73f0a) - add `reinterpretInt64` to namespace
+-   [`92db74a`](https://github.com/stdlib-js/stdlib/commit/92db74aab6e087ea7801ba271f4e0310c9e85665) - add `strided/base/reinterpret-int64`
 -   [`8de5aad`](https://github.com/stdlib-js/stdlib/commit/8de5aad6f1ec1b3745525504c4c554dee2a74554) - add `reinterpretUint64` to namespace
 -   [`1e52dfc`](https://github.com/stdlib-js/stdlib/commit/1e52dfcc0e8eb882a4281c19b7e6af0cf8656fe3) - add `strided/base/reinterpret-uint64` [(#14219)](https://github.com/stdlib-js/stdlib/pull/14219)
 -   [`10db754`](https://github.com/stdlib-js/stdlib/commit/10db7544d5d16543c9481218723efb391ceccdf5) - add `reinterpretFloat16` to namespace
@@ -47,6 +49,9 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`60897b1`](https://github.com/stdlib-js/stdlib/commit/60897b161fcdb3a8724facbac31a15137cb73f0a) - **feat:** add `reinterpretInt64` to namespace _(by Athan Reines)_
+-   [`92db74a`](https://github.com/stdlib-js/stdlib/commit/92db74aab6e087ea7801ba271f4e0310c9e85665) - **feat:** add `strided/base/reinterpret-int64` _(by Athan Reines)_
+-   [`9889b19`](https://github.com/stdlib-js/stdlib/commit/9889b1962456985035d193a175c337903f544dc1) - **chore:** update descriptions and keywords _(by Athan Reines)_
 -   [`492aac8`](https://github.com/stdlib-js/stdlib/commit/492aac82162e8ee0706a0b4a56e28d91fb14b5bd) - **docs:** update namespace table of contents [(#14682)](https://github.com/stdlib-js/stdlib/pull/14682) _(by stdlib-bot)_
 -   [`8de5aad`](https://github.com/stdlib-js/stdlib/commit/8de5aad6f1ec1b3745525504c4c554dee2a74554) - **feat:** add `reinterpretUint64` to namespace _(by Athan Reines)_
 -   [`1e52dfc`](https://github.com/stdlib-js/stdlib/commit/1e52dfcc0e8eb882a4281c19b7e6af0cf8656fe3) - **feat:** add `strided/base/reinterpret-uint64` [(#14219)](https://github.com/stdlib-js/stdlib/pull/14219) _(by Divit Jain, Athan Reines)_
