@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-26)
+## Unreleased (2026-08-27)
 
 <section class="features">
 
@@ -47,6 +47,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`492aac8`](https://github.com/stdlib-js/stdlib/commit/492aac82162e8ee0706a0b4a56e28d91fb14b5bd) - **docs:** update namespace table of contents [(#14682)](https://github.com/stdlib-js/stdlib/pull/14682) _(by stdlib-bot)_
 -   [`8de5aad`](https://github.com/stdlib-js/stdlib/commit/8de5aad6f1ec1b3745525504c4c554dee2a74554) - **feat:** add `reinterpretUint64` to namespace _(by Athan Reines)_
 -   [`1e52dfc`](https://github.com/stdlib-js/stdlib/commit/1e52dfcc0e8eb882a4281c19b7e6af0cf8656fe3) - **feat:** add `strided/base/reinterpret-uint64` [(#14219)](https://github.com/stdlib-js/stdlib/pull/14219) _(by Divit Jain, Athan Reines)_
 -   [`c5d553b`](https://github.com/stdlib-js/stdlib/commit/c5d553b67e4bd6497dc2b99ee8787b54b1e3e761) - **docs:** update namespace table of contents [(#14465)](https://github.com/stdlib-js/stdlib/pull/14465) _(by stdlib-bot)_
