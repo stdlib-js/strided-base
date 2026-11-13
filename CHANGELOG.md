@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-27)
+## Unreleased (2026-11-13)
 
 <section class="features">
 
 ### Features
 
+-   [`b594a74`](https://github.com/stdlib-js/stdlib/commit/b594a749b76d0b4fd62eea92f6f33689ea24eb5c) - add float16 support to `strided/base/*` [(#15909)](https://github.com/stdlib-js/stdlib/pull/15909)
+-   [`c8205bc`](https://github.com/stdlib-js/stdlib/commit/c8205bc78fb9892d61896820b432f3717736ef7f) - add float16 dtype support to `strided/base/strided2object` [(#15908)](https://github.com/stdlib-js/stdlib/pull/15908)
 -   [`60897b1`](https://github.com/stdlib-js/stdlib/commit/60897b161fcdb3a8724facbac31a15137cb73f0a) - add `reinterpretInt64` to namespace
 -   [`92db74a`](https://github.com/stdlib-js/stdlib/commit/92db74aab6e087ea7801ba271f4e0310c9e85665) - add `strided/base/reinterpret-int64`
 -   [`8de5aad`](https://github.com/stdlib-js/stdlib/commit/8de5aad6f1ec1b3745525504c4c554dee2a74554) - add `reinterpretUint64` to namespace
@@ -49,6 +51,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`b594a74`](https://github.com/stdlib-js/stdlib/commit/b594a749b76d0b4fd62eea92f6f33689ea24eb5c) - **feat:** add float16 support to `strided/base/*` [(#15909)](https://github.com/stdlib-js/stdlib/pull/15909) _(by Gururaj Gurram)_
+-   [`c8205bc`](https://github.com/stdlib-js/stdlib/commit/c8205bc78fb9892d61896820b432f3717736ef7f) - **feat:** add float16 dtype support to `strided/base/strided2object` [(#15908)](https://github.com/stdlib-js/stdlib/pull/15908) _(by Gururaj Gurram)_
 -   [`4b4c89c`](https://github.com/stdlib-js/stdlib/commit/4b4c89cf08460e2d935dbb12c71011207d02b404) - **docs:** update namespace table of contents [(#14737)](https://github.com/stdlib-js/stdlib/pull/14737) _(by stdlib-bot)_
 -   [`22b2e6d`](https://github.com/stdlib-js/stdlib/commit/22b2e6dc688cb91401d670414db583c12bc19715) - **docs:** fix require path _(by Athan Reines)_
 -   [`c0a29a3`](https://github.com/stdlib-js/stdlib/commit/c0a29a3d62d69bcd2f42b11ea716e78723324001) - **docs:** fix example require path in `strided/base/reinterpret-int64` [(#14719)](https://github.com/stdlib-js/stdlib/pull/14719) _(by Philipp Burckhardt)_
